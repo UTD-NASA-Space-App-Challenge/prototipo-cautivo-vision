@@ -1,0 +1,12 @@
+path: /home/jetson/Desktop/UTD/NASA/rock-dataset
+train: train/images
+val: val/images
+
+nc: 6
+names:
+  0: lunar_basalt
+  1: anorthosite
+  2: lunar_breccia
+  3: obsidian
+  4: pumice_scoria
+  5: hematite

@@ -1,0 +1,6 @@
+4cNqJPip6STbgUSNy5oLfrom roboflow import Roboflow
+
+rf = Roboflow(api_key="TU_API_KEY_AQUI")
+project = rf.workspace("said-uyao1").project("rock-bvssc")
+version = project.version(1)
+dataset = version.download("yolov8")
